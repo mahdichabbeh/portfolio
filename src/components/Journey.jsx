@@ -10,7 +10,7 @@ const Journey = () => {
             <img src={shape} alt="shape" className=' absolute top-20 left-[-80px]' />
             <img src={shape} alt="shape" className=' absolute bottom-10 right-[-80px]' />
             <div className=' lg:w-1/6 text-center '>
-                <h2 className="p-2 text-white text-2xl sm:text-4xl font-bold">Journey</h2>
+                <h2 className="p-2 text-primary text-2xl sm:text-4xl font-bold">Journey</h2>
             </div>
             <div className='w-full h-full'>
                 <VerticalTimeline>

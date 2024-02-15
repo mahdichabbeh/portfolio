@@ -16,7 +16,7 @@ module.exports = {
       },
       fontFamily:{
         'poppins' :['poppins','sans-serif'],
-      }
+      },
 
     },
   },

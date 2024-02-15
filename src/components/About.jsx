@@ -1,4 +1,3 @@
-import wave from '../assets/wave.svg'
 import blue from '../assets/blue.jpg'
 import rec from '../assets/rec.jpg'
 

@@ -14,7 +14,7 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 const Projects = () => {
   return (
     <section id="projects" className="relative pt-10 pb-36 w-screen h-fit flex flex-col md:gap-16 gap-8 items-center bg-black z-0 ">
-            <h1 className="text-white text-4xl font-bold font-poppins h-fit w-fit mb-5 md:mb-0">Projects</h1>
+            <h1 className="text-primary text-4xl font-bold font-poppins h-fit w-fit mb-5 md:mb-0">Projects</h1>
             <img src={shape} alt="shape" className=" absolute right-[-100px] w-1/4" />
       <div className="w-full h-fit ">
         <Swiper

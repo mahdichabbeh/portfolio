@@ -4,7 +4,7 @@ import devops from '../assets/devopss.png';
 import db from '../assets/database.png';
 import ds from '../assets/ds.png';
 import others from '../assets/more.png';
-import cims from '../assets/cims.jpg';
+import cims from '../assets/cims2.png';
 import pat from "../assets/PAT.png";
 import aws from "../assets/aws.pdf";
 import aws1 from "../assets/aws1.pdf";
@@ -134,6 +134,6 @@ export const navLinks = [
     }
   ];
 
-  export const awscert = [aws,aws1,aws2];
-  export const devopscert=[devops1];
-  export const mlcert=[ml1];
+  export const awscert = [{img:aws,id:"AWS Cloud Technical Essentials"},{img:aws1,id:"AWS Migration Evaluator Getting Started"},{img:aws2,id:"Introduction to AWS Application Migration Service"}];
+  export const devopscert=[{img:devops1,id:"Introdu ction to D evOps"}];
+  export const mlcert=[{img:ml1,id:"Machine Learning with K-Nearest Neighbors"}];
