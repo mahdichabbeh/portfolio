@@ -6,10 +6,7 @@ import rec from '../assets/rec.jpg'
 const About = ()=>{
     return(
         <section id="about" className="w-screen h-fit bg-white ">
-            <div className=' w-full'>
-                <div className='w-full hidden phone:block bg-black h-[50px]'></div>
-                <img src={wave} alt="wave" className=' w-full' />
-            </div>
+            
             <div className='flex flex-row w-full md:justify-normal justify-center gap-10 lg:gap-20 '>
                 <div className='hidden md:block w-1/3 relative mt-5'>
                     <img src={rec} alt="rec" className=' absolute top-16 left-8 lg:left-20 w-4/5' />
