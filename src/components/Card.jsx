@@ -6,13 +6,12 @@ const getRandomElementFromArray = (array) => {
 
 const Card = ({titre='',skills=[],img=''}) => {
     return ( 
-        <div className=" bg-neutral-100 border-[1px] border-neutral-300 shadow-sm  w-[400px] h-fit phone:h-[250px] flex flex-col items-center gap-4 justify-start pt-8 border-solid rounded-lg">
-            <div className='w-full h-[5px] bg-neutral-200'></div>
-            <h2 className='text-[#999999] font-bold font-poppins text-center text-xl'>{titre}</h2>
+        <div className=" bg-gray-900 border-[1px] border-neutral-300 shadow-sm  w-[400px] h-fit phone:h-[250px] flex flex-col items-center gap-4 justify-start pt-8 border-solid rounded-lg">
+            <h2 className='text-neutral-200 font-medium font-poppins text-center text-xl'>{titre}</h2>
             <img src={img} alt="img" className=" w-[40px] h-[40px]" />
             <div className='flex flex-row flex-wrap items-center justify-start w-full p-2 gap-1'>
             {skills.map((skill) => (
-                <div key={skill.id} style={{ backgroundColor: getRandomElementFromArray(colarray) }} className={` w-fit text-lg font-poppins px-3 border-solid border-2 shadow-md rounded-lg `}>
+                <div key={skill.id} className=" w-fit text-lg text-neutral-200 font-poppins px-3 border-solid border-[1px] border-neutral-400 shadow-sm rounded-lg">
                     <h6>{skill.id}</h6>
                 </div>
             ))}
