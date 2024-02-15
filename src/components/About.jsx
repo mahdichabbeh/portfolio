@@ -1,5 +1,3 @@
-import blue from '../assets/blue.jpg'
-import rec from '../assets/rec.jpg';
 import engineer from "../assets/engineer.svg"
 
 

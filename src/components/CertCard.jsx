@@ -32,7 +32,7 @@ const CertCard = ({img='',desc='',certs=[], title=''}) => {
         >
         <div className=" w-full flex lg:flex-row flex-col items-center justify-center lg:gap-4 gap-14 flex-wrap">
             {certs.map((cert)=>(
-                <PDFViewer img={cert.img} id={cert .id}></PDFViewer>
+                <PDFViewer img={cert.img} id={cert.id}></PDFViewer>
             ))}
         </div>
 
