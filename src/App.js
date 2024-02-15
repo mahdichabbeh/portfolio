@@ -7,11 +7,29 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Certifs from './components/Certifs';
+import { useState,useEffect } from 'react';
+import ClimbingBoxLoader from "react-spinners/PacmanLoader"
+import "./index.css";
 
 function App() {
+  const [loading,setLoading] = useState(false);
+  useEffect(()=>{
+    setLoading(true)
+    setTimeout(()=>
+    {setLoading(false)}
+    ,3000)
+  },[])
   return (
-    <BrowserRouter>
-      <div className=' bg-white w-full h-full overflow-hidden'>
+    loading ? 
+      <div className='App bg-black h-fit w-full'>
+      <ClimbingBoxLoader
+      color={"#52D3D8"}
+      loading={loading}
+      size={20}
+      />
+      </div> :
+      <BrowserRouter>
+      <div className=' bg-white w-full h-full overflow-x-hidden'>
           <Navbar/>
           <Landing/>
           <About/>
@@ -22,6 +40,8 @@ function App() {
           <Contact/>
       </div>
     </BrowserRouter>
+  
+
   );
 }
 
