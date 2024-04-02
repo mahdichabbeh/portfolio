@@ -1,4 +1,4 @@
-const Projects = ({title='',img='',description='',techs=[]}) => {
+const Projects = ({title='',img='',description='',techs=[],link=''}) => {
     return ( 
         <div className="w-full h-full flex items-center justify-center flex-col gap-2 p-3 text-white bg-transparent">
             
@@ -20,7 +20,7 @@ const Projects = ({title='',img='',description='',techs=[]}) => {
                         ))}
                     </div>
                     <div className='h-fit w-full underline text-primary'>
-                        <a href="####" ><p className=" text-lg">Github Repository</p></a>
+                        <a target='_blank' rel='noreferrer' href={link} ><p className=" text-lg">Github Repository</p></a>
                     </div>
                 </div>
             </div>

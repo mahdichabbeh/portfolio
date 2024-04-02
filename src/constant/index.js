@@ -11,6 +11,8 @@ import aws1 from "../assets/aws1.pdf";
 import aws2 from "../assets/aws2.pdf";
 import devops1 from "../assets/devops1.pdf";
 import ml1 from "../assets/ml1.pdf";
+import wildlife from "../assets/wildlife.png";
+import docker from "../assets/docker.pdf"
 
 export const navLinks = [
     {
@@ -121,19 +123,28 @@ export const navLinks = [
 
   export const prjs = [
     {
+      title:"WildLife Explorer",
+      img:wildlife,
+      techs:[{id:'ReactJS'},{id:'TailwindCss'},{id:'SpringBoot'},{id:'MongoDB'}],
+      description:'The Wildlife Explorer Website is an online zoo that brings the beauty of wildlife to your screen! Explore captivating profiles of various animals, from regal lions to playful dolphins. Powered by MongoDB, Spring Boot, ReactJS, and Tailwind CSS, it offers an immersive experience, merging technology with conservation.',
+      link:'https://github.com/mahdichabbeh/WildLife_Explorer'
+    },
+    {
       title:"Cims Web Form",
       img:cims,
       techs:[{id:'HTML'},{id:'TailwindCss'},{id:'Javascript'},{id:'JQuery'},{id:'MySQL'},{id:'PHP'}],
-      description:'This project developed a web-based solution for hospitals to manage oxygen stock efficiently. Using HTML, Tailwind CSS, PHP, MySQL, JavaScript, and jQuery, it created a user-friendly interface and robust backend system. Features included real-time updates, order processing, automatic notifications, and data visualization, enhancing workflow efficiency and supporting patient care during challenging times.'
+      description:'This project developed a web-based solution for hospitals to manage oxygen stock efficiently. Using HTML, Tailwind CSS, PHP, MySQL, JavaScript, and jQuery, it created a user-friendly interface and robust backend system. Features included real-time updates, order processing, automatic notifications, and data visualization, enhancing workflow efficiency and supporting patient care during challenging times.',
+      link:'https://github.com/mahdichabbeh/CIMS-Project'
     },
     {
       title:"Tunisia's Pet Association WebSite",
       img:pat,
       techs:[{id:'HTML'},{id:'CSS'},{id:'Javascript'},{id:'MySQL'},{id:'PHP'}],
-      description:"This website for the Pet Association of Tunisia, built with HTML, CSS, JavaScript, and PHP, offers an intuitive interface for pet adoption, events, education, and community forums. JavaScript adds dynamic elements for enhanced user experience, while PHP handles server-side processing and database interactions. The site promotes pet adoption and community engagement across Tunisia"
+      description:"This website for the Pet Association of Tunisia, built with HTML, CSS, JavaScript, and PHP, offers an intuitive interface for pet adoption, events, education, and community forums. JavaScript adds dynamic elements for enhanced user experience, while PHP handles server-side processing and database interactions. The site promotes pet adoption and community engagement across Tunisia",
+      link:'https://github.com/mahdichabbeh/PAT'
     }
   ];
 
   export const awscert = [{img:aws,id:"AWS Cloud Technical Essentials"},{img:aws1,id:"AWS Migration Evaluator Getting Started"},{img:aws2,id:"Introduction to AWS Application Migration Service"}];
-  export const devopscert=[{img:devops1,id:"Introdu ction to D evOps"}];
+  export const devopscert=[{img:devops1,id:"Introduction to DevOps"},{img:docker,id:"Introduction to Containers w/ Docker, Kubernetes & OpenShift"}];
   export const mlcert=[{img:ml1,id:"Machine Learning with K-Nearest Neighbors"}];

@@ -48,6 +48,7 @@ const Projects = () => {
                 img={prj.img}
                 description={prj.description}
                 techs={prj.techs}
+                link={prj.link}
               ></Project>
             </SwiperSlide>
           ))}
